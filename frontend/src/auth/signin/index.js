@@ -17,7 +17,7 @@ function SignIn() {
   };
   return (
     <GoogleLogin
-      clientId="365874127278-6fae4lh5mkf6i3pue7qh1b2jmtv53mm0.apps.googleusercontent.com"
+      clientId="849634220955-82str2otge351k1kipscgujiao89678u.apps.googleusercontent.com"
       onSuccess={googleAuth}
       onFailure={googleAuth}
       cookiePolicy={"single_host_origin"}
