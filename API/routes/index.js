@@ -6,6 +6,7 @@ const User = require("../models/user");
 router.use("/auth", require("./auth"));
 
 router.get("/profile", function (req, res) {
+  console.log(req);
   User.findOne({ email: req.session.passport.user.email })
     .lean()
     .exec((err, user) => {
