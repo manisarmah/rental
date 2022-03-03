@@ -1,9 +1,15 @@
 const express = require("express");
 const router = express.Router();
 
+const rideControllers = require("./ride/ride");
+
 const User = require("../models/user");
 
 router.use("/auth", require("./auth"));
+
+router.post("/ride/start", rideControllers.startRide);
+router.post("/ride/end", rideControllers.endRide);
+router.post("/ride/update", rideControllers.updateRide);
 
 router.get("/profile", function (req, res) {
   console.log(req);
