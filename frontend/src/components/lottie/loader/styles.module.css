@@ -1,0 +1,11 @@
+.loaad{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_loaad{
+    height: 170px;
+    width: 170px;
+}
