@@ -7,7 +7,7 @@ const ScanButton = () => {
   return (
     <div className={styles.outer}>
       <div className={styles.inner}>
-        <Link to='/'>
+        <Link to='/scan-now'>
           <QrCodeScannerIcon style={{ fontSize: "3rem" }} />{" "}
         </Link>
       </div>
