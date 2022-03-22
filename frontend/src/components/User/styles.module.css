@@ -1,0 +1,23 @@
+.outer{
+    padding:0.9rem 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 80%;
+    margin:10px auto;
+    border-radius: 16px;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.3);
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    padding: 0;
+}
+.wallet{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
