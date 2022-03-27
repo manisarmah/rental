@@ -1,0 +1,25 @@
+{
+  "name": "api2",
+  "version": "1.0.0",
+  "description": "new api folder structure ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test ",
+    "build": "",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "API",
+    "GEN2GEN"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.8",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2"
+  }
+}
